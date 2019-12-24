@@ -1,0 +1,119 @@
+:root {
+  --company-color: rgba(23,73,151,1);
+}
+
+
+* {
+  box-sizing: border-box;
+  transition: all ease-in-out 400ms;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 95%;
+  max-width: 90em;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.clearfix::after,
+section::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+
+/* Nav */
+
+nav .nav-item  {
+  color: ;
+  margin: 2px;
+}
+
+nav .nav-item:hover {
+  color: #fff;
+  background-color: rgb(40, 110, 240);
+  transition: all 0.4s ease 0s;
+  border-radius: 10px;
+}
+
+nav .active {
+  color: rgb(40, 110, 240);
+  border-radius: 10px;
+  border: 2px rgb(40, 110, 240) solid;
+}
+
+.navbar {
+  background-color: rgba(255,255,255,.95);
+}
+
+.navbar-toggler {
+  border: 1px solid rgb(40, 110, 240);
+  border-radius: 3px;
+}
+
+.navbar-toggler-icon  {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, .85)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler:hover {
+  border: 1px solid rgb(40, 110, 240);
+  border-radius: 3px;
+}
+
+.dropdown-menu {
+  background-color: #fff;
+}
+
+.dropdown-menu .active {
+  background-color: #fff;
+  color: #000;
+}
+
+.dropdown-menu > a {
+  color: rgb(40, 110, 240);
+}
+
+.dropdown-menu > a:hover {
+  color: #000;
+}
+
+.navbar-brand {
+  width: 50%;
+  min-width: 350px;
+}
+
+.home-hero {
+  background-image: url(../img/clean.jpg);
+  background-color: rgba(20,20,20,.55);
+  background-blend-mode: darken;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20em;
+  color: #eee;
+  text-align: center;
+  width: 100vw;
+}
+
+.jumbotron {
+  margin: 2em 0 .5em;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: var(--company-color);
+  color: white;
+}
+.cta .jumbotron {
+  margin: 2em 0;
+
+}
+.debug {
+  border:dashed brown 2px;
+}
