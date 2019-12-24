@@ -86,9 +86,14 @@ nav .active {
 }
 
 .navbar-brand {
-  width: 50%;
-  min-width: 350px;
+  max-width: 300px;
 }
+
+.navbar-brand + img {
+  width: 50%;
+  min-width: 300px;
+}
+
 
 .home-hero {
   background-image: url(../img/clean.jpg);
