@@ -16,7 +16,7 @@ img {
 
 .container {
   width: 95%;
-  max-width: 90em;
+  max-width: 100em;
   margin: 0 auto;
   padding: 0 auto;
 }
@@ -33,7 +33,7 @@ section::after {
 /* Nav */
 
 nav .nav-item  {
-  color: ;
+  color: var(--company-color);
   margin: 2px;
 }
 
@@ -51,7 +51,7 @@ nav .active {
 }
 
 .navbar {
-  background-color: rgba(255,255,255,.95);
+  background-color: rgba(255,255,255,.05);
 }
 
 .navbar-toggler {
@@ -73,8 +73,8 @@ nav .active {
 }
 
 .dropdown-menu .active {
-  background-color: #fff;
-  color: #000;
+  background-color: var(--company-color);
+  color: #fff;
 }
 
 .dropdown-menu > a {
@@ -85,31 +85,43 @@ nav .active {
   color: #fff;
 }
 
-.navbar-brand {
+/* .navbar-brand {
   max-width: 200px;
-}
+} */
 
-.navbar-brand + img {
-  width: 50%;
-  min-width: 300px;
+.navbar-brand {
+  width: 55%;
+  min-width: 220px;
 }
 
 
 .home-hero {
-  background-image: url(../img/clean.jpg);
-  background-color: rgba(20,20,20,.55);
+  /* background-image: url(../img/clean.jpg);
+  background-color: rgba(20,20,20,.75);
   background-blend-mode: darken;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  padding: 20em 0;
-  color: #eee;
+  background-repeat: no-repeat; */
+  padding: 10em 0;
+  color: #fff;
   text-align: center;
   text-transform: capitalize;
-  height: 100vh;
-  width: 100vw;
-
 }
+/* .home-hero-logo::before{
+
+    content: ' ';
+    background-image: url(../img/logo-hires.svg);
+    background-size: 30%;
+    display: block;
+    padding: 5em;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.home-hero-logo {
+
+
+} */
 
 .jumbotron {
   margin: 2em 0 .5em;
@@ -118,9 +130,7 @@ nav .active {
   background-color: var(--company-color);
   color: white;
 }
-.card:hover {
 
-}
 .cta .jumbotron {
   margin: 2em 0;
 
@@ -146,7 +156,12 @@ footer {
 footer a {
     color: var(--company-color);
     text-decoration: none;
-    line-height: 2.6rem;
+    line-height: 2.5rem;
+}
+
+footer a .active {
+  color: #fff;
+  background-color: var(--company-color);
 }
 
 footer h5 {
@@ -159,7 +174,7 @@ footer a:hover {
     color: #fff;
     padding: .3em;
     background-color: var(--company-color);
-    border-radius: 5px;
+    border-radius: 9px;
     transition: all 0.3s ease 0s;
     text-decoration: none;
 }
@@ -188,17 +203,22 @@ ul.social li {
 	padding: 0 4%;
 }
 
-ul.social li a {
-	color: var(--company-color);
+
+ul.social li a {}
+ul.social li.facebook a {color: rgb(59,89,152);}
+ul.social li.twitter a {color: rgb(0, 172, 237);}
+ul.social li.instagram a {color: rgb(81, 127, 237);}
+ul.social li.youtube a {color: rgb(187, 0, 0);}
+ul.social li.flickr a {color: rgb(255, 0, 132);}
+ul.social li.linkedin a {color: rgb(0, 123, 182);}
+ul.social li.yelp a {color: #af0606;}
+
+ul.social li a:hover {
+  padding: 1.04rem;
+  border-radius: 99px;
 }
-ul.social li a{background-color: #eee }
-ul.social li.facebook a:hover {color: rgb(59,89,152);}
-ul.social li.twitter a:hover {color: rgb(0, 172, 237);}
-ul.social li.instagram a:hover {color: rgb(81, 127, 237);}
-ul.social li.youtube a:hover {color: rgb(187, 0, 0);}
-ul.social li.flickr a:hover {color: rgb(255, 0, 132);}
-ul.social li.linkedin a:hover {color: rgb(0, 123, 182);}
-ul.social li.yelp a:hover {color: #af0606;}
+ul.social li.facebook a:hover {color:#fff; background-color: rgb(59,89,152);}
+ul.social li.yelp a:hover {color:#fff; background-color: #af0606;}
 
 p.copyright {
 	text-align: center;
