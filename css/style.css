@@ -102,26 +102,26 @@ nav .active {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; */
-  padding: 10em 0;
-  color: #fff;
+  margin: 1.5em;
+  color: #000;
   text-align: center;
   text-transform: capitalize;
 }
-/* .home-hero-logo::before{
+.home-hero-logo::before{
 
     content: ' ';
     background-image: url(../img/logo-hires.svg);
-    background-size: 30%;
     display: block;
-    padding: 5em;
-    background-position: top;
+    padding: 3em;
+    background-position: center;
     background-repeat: no-repeat;
     width: 100%;
+    text-align: center;
 }
 .home-hero-logo {
 
 
-} */
+}
 
 .jumbotron {
   margin: 2em 0 .5em;
