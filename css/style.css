@@ -51,7 +51,7 @@ nav .active {
 }
 
 .navbar {
-  background-color: rgba(255,255,255,.05);
+  background-color: rgba(255,255,255,.75);
 }
 
 .navbar-toggler {
@@ -95,6 +95,8 @@ nav .active {
 }
 
 
+
+
 .home-hero {
   /* background-image: url(../img/clean.jpg);
   background-color: rgba(20,20,20,.75);
@@ -102,10 +104,11 @@ nav .active {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; */
-  margin: 1.5em;
+  /* margin: 1.5em; */
   color: #000;
   text-align: center;
   text-transform: capitalize;
+  padding-top: 4em;
 }
 .home-hero-logo::before{
 
@@ -116,13 +119,10 @@ nav .active {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 1em;
 }
-.home-hero-logo {
 
-
-}
 
 .jumbotron {
   margin: 2em 0 .5em;
