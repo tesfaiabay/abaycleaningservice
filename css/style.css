@@ -6,7 +6,7 @@
 * {
   box-sizing: border-box;
   transition: all ease-in-out 400ms;
-  list-style: none;
+  /* list-style: none; */
 }
 
 img {
@@ -28,7 +28,7 @@ section::after {
   clear: both;
 }
 
-
+/* Typogophary */
 
 /* Nav */
 
@@ -44,7 +44,7 @@ nav .nav-item:hover {
   border-radius: 10px;
 }
 
-nav .active {
+.active {
   color: var(--company-color);
   border-radius: 10px;
   border: 2px var(--company-color) solid;
@@ -139,6 +139,35 @@ nav .active {
 .copyright{
   margin-top: 25px;
 }
+
+.blue-border {
+  border: 6px solid var(--company-color);
+  padding: 3em;
+}
+
+p.services-description {
+  background-color: grey;
+  padding: 2em;
+  line-height: 2.4em;
+  color: white;
+}
+
+p.services-description::before {
+  content: 'W';
+  font-size: 32px;
+}
+
+.service-list {
+  font-size: 22px;
+  line-height: 1.75em;
+  text-transform: capitalize;
+  list-style: decimal;
+}
+
+.list-group-item-action:hover {
+  background-color: #dddddd;
+}
+
 
 footer .text-muted {
     font-size: .8em;
