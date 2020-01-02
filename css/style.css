@@ -16,7 +16,7 @@ img {
 
 .container {
   width: 95%;
-  max-width: 100em;
+  max-width: 98%;
   margin: 0 auto;
   padding: 0 auto;
 }
@@ -73,8 +73,8 @@ nav .nav-item:hover {
 }
 
 .dropdown-menu .active {
-  background-color: var(--company-color);
-  color: #fff;
+  border-color: var(--company-color);
+  color: var(--company-color);
 }
 
 .dropdown-menu > a {
@@ -125,7 +125,7 @@ nav .nav-item:hover {
 
 
 .jumbotron {
-  margin: 2em 0 .5em;
+  margin: 1.0em 0 .5em;
   text-align: center;
   text-transform: capitalize;
   background-color: var(--company-color);
@@ -133,16 +133,23 @@ nav .nav-item:hover {
 }
 
 .cta .jumbotron {
-  margin: 2em 0;
+  margin: 1.5em 0;
+}
 
+.contactus .jumbotron {
+  border: 1px solid var(--company-color);
+}
+
+.jumbotron a {
+  color: var(--company-color);
 }
 .copyright{
   margin-top: 25px;
 }
 
 .blue-border {
-  border: 6px solid var(--company-color);
-  padding: 3em;
+  border: 4px solid var(--company-color);
+  padding: 2em;
 }
 
 p.services-description {
@@ -169,7 +176,6 @@ p.services-description::before {
 }
 
 .portrait {
-
   min-width: 210px;
 }
 
