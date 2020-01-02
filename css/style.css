@@ -168,6 +168,10 @@ p.services-description::before {
   background-color: #dddddd;
 }
 
+.portrait {
+
+  min-width: 210px;
+}
 
 footer .text-muted {
     font-size: .8em;
