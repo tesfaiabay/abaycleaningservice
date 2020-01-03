@@ -17,9 +17,9 @@ img {
 
 .container {
   width: 95%;
-  max-width: 98%;
-  margin: 0 auto;
-  padding: 0 auto;
+  /* max-width: 98%; */
+  /* margin: 0 auto;
+  padding: 0 auto; */
 }
 
 .clearfix::after,
@@ -29,7 +29,6 @@ section::after {
   clear: both;
 }
 
-/* Typogophary */
 
 /* Nav */
 
@@ -86,17 +85,10 @@ nav .nav-item:hover {
   color: #fff;
 }
 
-/* .navbar-brand {
-  max-width: 200px;
-} */
-
 .navbar-brand {
   width: 55%;
   min-width: 220px;
 }
-
-
-
 
 .home-hero {
   /* background-image: url(../img/clean.jpg);
