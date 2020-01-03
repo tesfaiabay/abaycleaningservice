@@ -7,6 +7,7 @@
   box-sizing: border-box;
   transition: all ease-in-out 400ms;
   /* list-style: none; */
+
 }
 
 img {
@@ -137,7 +138,7 @@ nav .nav-item:hover {
 }
 
 .contactus .jumbotron {
-  border: 1px solid var(--company-color);
+  /* border: 1px solid var(--company-color); */
 }
 
 .jumbotron a {
@@ -264,4 +265,26 @@ p.copyright {
 	text-align: center;
 	color: #ccc;
 	font-size: 1em;
+}
+
+
+.phone::before {
+  content: ' ';
+  background-image: url(../img/phone.svg);
+  display: inline-flex;
+  float: left;
+  background-repeat: no-repeat;
+  padding: 25px;
+  margin-right: 10px;
+
+}
+
+.email::before {
+  content: '';
+  background-image: url(../img/email.svg);
+  display: inline-block;
+  float: left;
+  background-repeat: no-repeat;
+  padding: 30px;
+  margin-right: 10px;
 }

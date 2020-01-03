@@ -15,7 +15,7 @@
 
     var date = new Date();
 
-    var year = date.getFullYear()
+    var year = date.getFullYear();
 
     cy.innerHTML = year;
   });
@@ -23,7 +23,7 @@
 
 
 
-  // 
+  //
   //
   //
   //
