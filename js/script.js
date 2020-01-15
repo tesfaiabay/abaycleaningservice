@@ -12,12 +12,22 @@
 
     // Year
     var cy = document.getElementById('current-year');
+    var ey = document.getElementById('establish-year');
+
 
     var date = new Date();
-
+    var dateEstablished = 1995;
     var year = date.getFullYear();
 
+    ey.innerHTML = year - dateEstablished;
     cy.innerHTML = year;
+
+
+
+
+
+
+
   });
 
 

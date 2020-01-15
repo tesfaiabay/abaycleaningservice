@@ -129,10 +129,6 @@ nav .nav-item:hover {
   margin: 1.5em 0;
 }
 
-.contactus .jumbotron {
-  /* border: 1px solid var(--company-color); */
-}
-
 .jumbotron a {
   color: var(--company-color);
 }
@@ -237,7 +233,7 @@ ul.social li {
 }
 
 
-ul.social li a {}
+/* ul.social li a {} */
 ul.social li.facebook a {color: rgb(59,89,152);}
 ul.social li.twitter a {color: rgb(0, 172, 237);}
 ul.social li.instagram a {color: rgb(81, 127, 237);}
@@ -274,7 +270,7 @@ p.copyright {
 .email::before {
   content: '';
   background-image: url(../img/email.svg);
-  display: inline-block;
+  display: inline-flex;
   float: left;
   background-repeat: no-repeat;
   padding: 30px;
