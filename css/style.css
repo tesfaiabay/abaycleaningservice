@@ -2,12 +2,9 @@
   --company-color: rgba(23,73,151,1);
 }
 
-
 * {
   box-sizing: border-box;
   transition: all ease-in-out 400ms;
-  /* list-style: none; */
-
 }
 
 img {
@@ -17,9 +14,6 @@ img {
 
 .container {
   width: 95%;
-  /* max-width: 98%; */
-  /* margin: 0 auto;
-  padding: 0 auto; */
 }
 
 .clearfix::after,
@@ -28,7 +22,6 @@ section::after {
   display: block;
   clear: both;
 }
-
 
 /* Nav */
 
@@ -91,13 +84,6 @@ nav .nav-item:hover {
 }
 
 .home-hero {
-  /* background-image: url(../img/clean.jpg);
-  background-color: rgba(20,20,20,.75);
-  background-blend-mode: darken;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; */
-  /* margin: 1.5em; */
   color: #000;
   text-align: center;
   text-transform: capitalize;
@@ -112,10 +98,8 @@ nav .nav-item:hover {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    /* text-align: center; */
     margin-bottom: 1em;
 }
-
 
 .jumbotron {
   margin: 1.5em 0 .5em;
