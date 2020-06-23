@@ -182,6 +182,9 @@ footer h5 {
   font-size: 1.2rem;
 }
 
+.title {
+  font-size: 14px;
+}
 
 footer a:hover {
     color: #fff;
@@ -260,3 +263,4 @@ p.copyright {
   padding: 30px;
   margin-right: 10px;
 }
+
