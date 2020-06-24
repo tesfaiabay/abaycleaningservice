@@ -2,9 +2,12 @@
   --company-color: rgba(23,73,151,1);
 }
 
+
 * {
   box-sizing: border-box;
   transition: all ease-in-out 400ms;
+  /* list-style: none; */
+
 }
 
 img {
@@ -14,6 +17,9 @@ img {
 
 .container {
   width: 95%;
+  /* max-width: 98%; */
+  /* margin: 0 auto;
+  padding: 0 auto; */
 }
 
 .clearfix::after,
@@ -84,6 +90,13 @@ nav .nav-item:hover {
 }
 
 .home-hero {
+  /* background-image: url(../img/clean.jpg);
+  background-color: rgba(20,20,20,.75);
+  background-blend-mode: darken;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  /* margin: 1.5em; */
   color: #000;
   text-align: center;
   text-transform: capitalize;
@@ -98,8 +111,10 @@ nav .nav-item:hover {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
+    /* text-align: center; */
     margin-bottom: 1em;
 }
+
 
 .jumbotron {
   margin: 1.5em 0 .5em;
@@ -111,6 +126,10 @@ nav .nav-item:hover {
 
 .cta .jumbotron {
   margin: 1.5em 0;
+}
+
+.contactus .jumbotron {
+  /* border: 1px solid var(--company-color); */
 }
 
 .jumbotron a {
@@ -182,9 +201,6 @@ footer h5 {
   font-size: 1.2rem;
 }
 
-.title {
-  font-size: 14px;
-}
 
 footer a:hover {
     color: #fff;
@@ -206,6 +222,10 @@ footer .philosophy p {
   font-size: .9em;
 }
 
+footer .title {
+	font-size: 14px;	
+}
+
 ul.social {
 	display: block;
 	margin: 5% 0;
@@ -220,7 +240,7 @@ ul.social li {
 }
 
 
-/* ul.social li a {} */
+ul.social li a {}
 ul.social li.facebook a {color: rgb(59,89,152);}
 ul.social li.twitter a {color: rgb(0, 172, 237);}
 ul.social li.instagram a {color: rgb(81, 127, 237);}
@@ -257,10 +277,9 @@ p.copyright {
 .email::before {
   content: '';
   background-image: url(../img/email.svg);
-  display: inline-flex;
+  display: inline-block;
   float: left;
   background-repeat: no-repeat;
   padding: 30px;
   margin-right: 10px;
 }
-
