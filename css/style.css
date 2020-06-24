@@ -223,6 +223,10 @@ footer .philosophy p {
   font-size: .9em;
 }
 
+footer .title {
+	font-size: 14px;	
+}
+
 ul.social {
 	display: block;
 	margin: 5% 0;
